@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/advent_pro_medium</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/akronim</item>
+        <item>@font/aleo</item>
+        <item>@font/amatica_sc_bold</item>
+        <item>@font/amiri</item>
+        <item>@font/arizonia</item>
+        <item>@font/b612_mono_bold_italic</item>
+        <item>@font/barrio</item>
+        <item>@font/bigshot_one</item>
+        <item>@font/cabin</item>
+        <item>@font/cormorant_bold</item>
+        <item>@font/cormorant_sc_semibold</item>
+    </array>
+</resources>
