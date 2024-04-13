@@ -1,0 +1,316 @@
+[
+    {
+        "rings":[
+            {
+                "image": "R.drawable.ring_1",
+                "name": "Twilight Embrace",
+                "price": "₹ 76,135"
+            },
+            {
+                "image": "R.drawable.ring_2",
+                "name": "Radiant Grace",
+                "price": "₹ 86,135"
+            },
+            {
+                "image": "R.drawable.ring_3",
+                "name": "Golden Whisper",
+                "price": "₹ 56,135"
+            },
+            {
+                "image": "R.drawable.ring_4",
+                "name": "Sunset Serenade",
+                "price": "₹ 66,135"
+            },
+            {
+                "image": "R.drawable.ring_5",
+                "name": "Dawn's Embrace",
+                "price": "₹ 46,135"
+            },
+            {
+                "image": "R.drawable.ring_6",
+                "name": "Luminous Sparkle",
+                "price": "₹ 76,135"
+            },
+            {
+                "image": "R.drawable.ring_7",
+                "name": "Golden Elegance",
+                "price": "₹ 86,135"
+            },
+            {
+                "image": "R.drawable.ring_8",
+                "name": "Glowing Harmony",
+                "price": "₹ 56,135"
+            },
+            {
+                "image": "R.drawable.ring_9",
+                "name": "Enchanted Aura",
+                "price": "₹ 66,135"
+            },
+            {
+                "image": "R.drawable.ring_10",
+                "name": "Celestial Grace",
+                "price": "₹ 46,135"
+            }
+        ],
+        "necklaces":[
+            {
+                "image": "R.drawable.necklace_1",
+                "name": "Diamond Dreams",
+                "price": "₹ 1,20,135"
+            },
+            {
+                "image": "R.drawable.necklace_2",
+                "name": "Golden Grace",
+                "price": "₹ 1,00,135"
+            },
+            {
+                "image": "R.drawable.necklace_3",
+                "name": "Twilight Treasure",
+                "price": "₹ 1,10,135"
+            },
+            {
+                "image": "R.drawable.necklace_4",
+                "name": "Radiant Reflection",
+                "price": "₹ 1,50,135"
+            },
+            {
+                "image": "R.drawable.necklace_5",
+                "name": "Golden Glow",
+                "price": "₹ 84,135"
+            },
+            {
+                "image": "R.drawable.necklace_6",
+                "name": "Elegant Ensemble",
+                "price": "₹ 1,30,135"
+            },
+            {
+                "image": "R.drawable.necklace_7",
+                "name": "Sapphire Serenity",
+                "price": "₹ 95,135"
+            },
+            {
+                "image": "R.drawable.necklace_8",
+                "name": "Twinkling Twilight",
+                "price": "₹ 1,20,135"
+            },
+            {
+                "image": "R.drawable.necklace_9",
+                "name": "Golden Gleam",
+                "price": "₹ 1,10,135"
+            },
+            {
+                "image": "R.drawable.necklace_10",
+                "name": "Shimmering Starlight",
+                "price": "₹ 86,135"
+            }
+        ],
+        "earrings":[
+            {
+                "image": "R.drawable.earrings_1",
+                "name": "Crystal Cascade",
+                "price": "₹ 1,00,135"
+            },
+            {
+                "image": "R.drawable.earrings_2",
+                "name": "Golden Grace",
+                "price": "₹ 86,135"
+            },
+            {
+                "image": "R.drawable.earrings_3",
+                "name": "Twilight Twinkle",
+                "price": "₹ 96,135"
+            },
+            {
+                "image": "R.drawable.earrings_4",
+                "name": "Radiant Radiance",
+                "price": "₹ 1,10,135"
+            },
+            {
+                "image": "R.drawable.earrings_5",
+                "name": "Crystal Clarity",
+                "price": "₹ 56,135"
+            },
+            {
+                "image": "R.drawable.earrings_6",
+                "name": "Elegant Essence",
+                "price": "₹ 1,05,135"
+            },
+            {
+                "image": "R.drawable.earrings_7",
+                "name": "Golden Gleam",
+                "price": "₹ 76,135"
+            },
+            {
+                "image": "R.drawable.earrings_8",
+                "name": "Shimmering Serenade",
+                "price": "₹ 95,135"
+            },
+            {
+                "image": "R.drawable.earrings_9",
+                "name": "Sapphire Sparkle",
+                "price": "₹ 1,00,135"
+            },
+            {
+                "image": "R.drawable.earrings_10",
+                "name": "Twinkling Twilight",
+                "price": "₹ 60,135"
+            }
+        ],
+        "pendants":[
+            {
+                "image": "R.drawable.pendant_1",
+                "name": "Golden Locket",
+                "price": "₹ 80,135"
+            },
+            {
+                "image": "R.drawable.pendant_2",
+                "name": "Diamond Drop",
+                "price": "₹ 65,135"
+            },
+            {
+                "image": "R.drawable.pendant_3",
+                "name": "Twilight Teardrop",
+                "price": "₹ 70,135"
+            },
+            {
+                "image": "R.drawable.pendant_4",
+                "name": "Radiant Reflection",
+                "price": "₹ 90,135"
+            },
+            {
+                "image": "R.drawable.pendant_5",
+                "name": "Golden Gleam",
+                "price": "₹ 44,135"
+            },
+            {
+                "image": "R.drawable.pendant_6",
+                "name": "Elegant Essence",
+                "price": "₹ 85,135"
+            },
+            {
+                "image": "R.drawable.pendant_7",
+                "name": "Sapphire Sparkle",
+                "price": "₹ 75,135"
+            },
+            {
+                "image": "R.drawable.pendant_8",
+                "name": "Twinkling Twilight",
+                "price": "₹ 87,135"
+            },
+            {
+                "image": "R.drawable.pendant_9",
+                "name": "Golden Glow",
+                "price": "₹ 50,135"
+            },
+            {
+                "image": "R.drawable.pendant_10",
+                "name": "Shimmering Shine",
+                "price": "₹ 91,135"
+            }
+        ],
+        "chains":[
+            {
+                "image": "R.drawable.chains_1",
+                "name": "Golden Cascade",
+                "price": "₹ 1,20,135"
+            },
+            {
+                "image": "R.drawable.chains_2",
+                "name": "Diamond Delight",
+                "price": "₹ 1,00,135"
+            },
+            {
+                "image": "R.drawable.chains_3",
+                "name": "Twilight Treasures",
+                "price": "₹ 1,10,135"
+            },
+            {
+                "image": "R.drawable.chains_4",
+                "name": "Radiant Rays",
+                "price": "₹ 1,50,135"
+            },
+            {
+                "image": "R.drawable.chains_5",
+                "name": "Golden Glow",
+                "price": "₹ 76,135"
+            },
+            {
+                "image": "R.drawable.chains_6",
+                "name": "Elegant Ensemble",
+                "price": "₹ 1,30,135"
+            },
+            {
+                "image": "R.drawable.chains_7",
+                "name": "Sapphire Serenade",
+                "price": "₹ 95,135"
+            },
+            {
+                "image": "R.drawable.chains_8",
+                "name": "Twinkling Twilight",
+                "price": "₹ 1,20,135"
+            },
+            {
+                "image": "R.drawable.chains_9",
+                "name": "Golden Gleam",
+                "price": "₹ 1,10,135"
+            },
+            {
+                "image": "R.drawable.chains_10",
+                "name": "Shimmering Shine",
+                "price": "₹ 80,135"
+            }
+        ],
+        "bracelets":[
+            {
+                "image": "R.drawable.bracelet_1",
+                "name": "Diamond Delight",
+                "price": "₹ 1,00,135"
+            },
+            {
+                "image": "R.drawable.bracelet_2",
+                "name": "Golden Serenity",
+                "price": "₹ 86,135"
+            },
+            {
+                "image": "R.drawable.bracelet_3",
+                "name": "Twilight Sparkle",
+                "price": "₹ 96,135"
+            },
+            {
+                "image": "R.drawable.bracelet_4",
+                "name": "Radiant Glow",
+                "price": "₹ 1,20,135"
+            },
+            {
+                "image": "R.drawable.bracelet_5",
+                "name": "Crystal Charm",
+                "price": "₹ 66,135"
+            },
+            {
+                "image": "R.drawable.bracelet_6",
+                "name": "Elegant Shine",
+                "price": "₹ 1,10,135"
+            },
+            {
+                "image": "R.drawable.bracelet_7",
+                "name": "Golden Gleam",
+                "price": "₹ 76,135"
+            },
+            {
+                "image": "R.drawable.bracelet_8",
+                "name": "Twinkling Twilight",
+                "price": "₹ 95,135"
+            },
+            {
+                "image": "R.drawable.bracelet_9",
+                "name": "Sapphire Splendor",
+                "price": "₹ 1,15,135"
+            },
+            {
+                "image": "R.drawable.bracelet_10",
+                "name": "Shimmering Starlight",
+                "price": "₹ 70,135"
+            }
+        ]
+    }
+]

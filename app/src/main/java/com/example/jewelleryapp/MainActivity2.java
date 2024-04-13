@@ -28,11 +28,11 @@ public class MainActivity2 extends AppCompatActivity {
                 case R.id.cart_id:
                     replace_fragment(new CartFragment());
                     break;
+                case R.id.category_id:
+                    replace_fragment(new CategoryFragment());
+                    break;
                 case R.id.profile_id:
                     replace_fragment(new ProfileFragment());
-                    break;
-                case R.id.setting_id:
-                    replace_fragment(new SettingFragment());
                     break;
             }
             return true;

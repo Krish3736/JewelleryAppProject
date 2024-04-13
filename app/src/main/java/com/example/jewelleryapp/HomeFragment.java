@@ -42,19 +42,13 @@ public class HomeFragment extends Fragment {
         imageList.add(new SlideModel (R.drawable.slider_img4, ScaleTypes.FIT));
         fragmentHomeBinding.imageSliderId.setImageList(imageList);
 
-        ArrayList<HomeItemModel> arrHomeItem = new ArrayList<>();
 
-        arrHomeItem.add(new HomeItemModel(R.drawable.bracelet_1,"Womens","$76683"));
-        arrHomeItem.add(new HomeItemModel(R.drawable.ring_4,"Womens","$76683"));
-        arrHomeItem.add(new HomeItemModel(R.drawable.ring_8,"Womens","$76683"));
-        arrHomeItem.add(new HomeItemModel(R.drawable.bracelet_8,"Womens","$76683"));
-        arrHomeItem.add(new HomeItemModel(R.drawable.bracelet_10,"Womens","$76683"));
-        arrHomeItem.add(new HomeItemModel(R.drawable.bracelet_5,"Womens","$76683"));
-        arrHomeItem.add(new HomeItemModel(R.drawable.ring_2,"Womens","$76683"));
-        arrHomeItem.add(new HomeItemModel(R.drawable.ring_1,"Womens","$76683"));
+        fragmentHomeBinding.homeCardId1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
-//        fragmentHomeBinding.gridViewHome.setAdapter(new GridViewAdapter(requireContext(),R.layout.recycler_item_home,arrHomeItem));
-
+            }
+        });
     }
 
     @Override

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/theme_color_rose_gold"
+    tools:context=".ItemDescriptionFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--                     bracelet_5   -->
+
+        <ImageView
+            android:id="@+id/id_fragment_item_description_image"
+            android:layout_width="match_parent"
+            android:layout_height="281dp"
+            android:background="@color/theme_color_rose_gold"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bracelet_2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_item_description_back_btn"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/theme_color_rose_gold"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/back_arrow_white_small"
+            app:fabSize="mini"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/id_item_description_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme_color_rose_gold"
+        android:fontFamily="@font/cabin"
+        android:padding="20dp"
+        android:text="Mirthful Elegance Diamond Bracelet"
+        android:textColor="#854B4B"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/id_item_description_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme_color_rose_gold"
+        android:fontFamily="@font/cabin"
+        android:padding="20dp"
+        android:text="₹ 76,135"
+        android:textColor="#854B4B"
+        android:textSize="24sp"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_btn"
+        android:text="Add to Cart"
+        android:layout_marginTop="150dp"
+        />
+
+</LinearLayout>

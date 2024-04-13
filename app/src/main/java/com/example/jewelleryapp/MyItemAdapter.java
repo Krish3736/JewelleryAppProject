@@ -12,10 +12,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
+public class MyItemAdapter extends RecyclerView.Adapter<MyItemAdapter.ViewHolder> {
     Context context;
     ArrayList<HomeItemModel> arrHomeItem;
-    MyAdapter(Context context, ArrayList<HomeItemModel> arrayList){
+    MyItemAdapter(Context context, ArrayList<HomeItemModel> arrayList){
         this.context=context;
         this.arrHomeItem=arrayList;
     }
