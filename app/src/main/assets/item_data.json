@@ -47,8 +47,8 @@
         },
         {
             "image": "ring_10",
-            "name": "Celestial Grace",
-            "price": "₹ 46,135"
+            "name": "Flowering Wine Finger Ring",
+            "price": "₹ 58,144"
         }
     ],
     "necklaces":[
@@ -59,8 +59,8 @@
         },
         {
             "image": "necklace_2",
-            "name": "Golden Grace",
-            "price": "₹ 1,00,135"
+            "name": "Ainoah Graceful Necklace",
+            "price": "₹ 1,34,986"
         },
         {
             "image": "necklace_3",
@@ -106,8 +106,8 @@
     "earrings":[
         {
             "image": "earrings_1",
-            "name": "Crystal Cascade",
-            "price": "₹ 1,00,135"
+            "name": "Elegant Kundan Earrings",
+            "price": "₹ 48,999"
         },
         {
             "image": "earrings_2",
@@ -168,8 +168,8 @@
         },
         {
             "image": "pendant_3",
-            "name": "Twilight Teardrop",
-            "price": "₹ 70,135"
+            "name": "Plume Peacock Gold Pendant",
+            "price": "₹ 64,199"
         },
         {
             "image": "pendant_4",
@@ -178,8 +178,8 @@
         },
         {
             "image": "pendant_5",
-            "name": "Golden Gleam",
-            "price": "₹ 44,135"
+            "name": "Omkar Glow Diamond Pendant",
+            "price": "₹ 89,549"
         },
         {
             "image": "pendant_6",
@@ -272,8 +272,8 @@
         },
         {
             "image": "bracelet_3",
-            "name": "Twilight Sparkle",
-            "price": "₹ 96,135"
+            "name": "Beautiful Diamond Bracelet",
+            "price": "₹ 69,999"
         },
         {
             "image": "bracelet_4",
@@ -282,8 +282,8 @@
         },
         {
             "image": "bracelet_5",
-            "name": "Crystal Charm",
-            "price": "₹ 66,135"
+            "name": "Mirthful Elegance Diamond Bracelet",
+            "price": "₹ 76,135"
         },
         {
             "image": "bracelet_6",
@@ -309,6 +309,58 @@
             "image": "bracelet_10",
             "name": "Shimmering Starlight",
             "price": "₹ 70,135"
+        }
+    ],
+    "watches":[
+        {
+            "image": "watch_1",
+            "name": "Elegant Timepiece",
+            "price": "₹ 1,45,700"
+        },
+        {
+            "image": "watch_2",
+            "name": "Classic Chronograph",
+            "price": "₹ 1,80,200"
+        },
+        {
+            "image": "watch_3",
+            "name": "Luxury Automatic",
+            "price": "₹ 1,60,900"
+        },
+        {
+            "image": "watch_4",
+            "name": "Sleek Sports Watch",
+            "price": "₹ 1,90,500"
+        },
+        {
+            "image": "watch_5",
+            "name": "Stylish Dive Watch",
+            "price": "₹ 2,08,675"
+        },
+        {
+            "image": "watch_6",
+            "name": "Executive Gold Timepiece",
+            "price": "₹ 1,95,600"
+        },
+        {
+            "image": "watch_7",
+            "name": "Modern Stainless Steel Watch",
+            "price": "₹ 1,75,400"
+        },
+        {
+            "image": "watch_8",
+            "name": "Elegant Leather Strap Watch",
+            "price": "₹ 1,30,800"
+        },
+        {
+            "image": "watch_9",
+            "name": "Classic Silver Dial Watch",
+            "price": "₹ 1,85,300"
+        },
+        {
+            "image": "watch_10",
+            "name": "Sporty Titanium Chronograph",
+            "price": "₹ 1,40,950"
         }
     ]
 }

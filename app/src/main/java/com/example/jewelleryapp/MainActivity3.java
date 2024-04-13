@@ -11,6 +11,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.AdapterView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -20,7 +21,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
-public class MainActivity3 extends AppCompatActivity {
+public class MainActivity3 extends AppCompatActivity implements MyItemAdapter.OnItemClickListener{
 
     ActivityMain3Binding activityMain3Binding;
     MyItemAdapter myItemAdapter;
@@ -62,6 +63,9 @@ public class MainActivity3 extends AppCompatActivity {
             case 5:
                 x="bracelets";
                 break;
+            case 6:
+                x="watches";
+                break;
         }
         if (jsonObject != null) {
             try {
@@ -84,10 +88,20 @@ public class MainActivity3 extends AppCompatActivity {
         } else {
             Log.e("JSON Error", "Failed to load JSON object");
         }
-        myItemAdapter =new MyItemAdapter(this,arrMainActivity3Items);
+        myItemAdapter =new MyItemAdapter(this,arrMainActivity3Items,this);
         activityMain3Binding.recyclerActivity3Id.setAdapter(myItemAdapter);
 
     }
+
+    @Override
+    public void onItemClick(HomeItemModel item) {
+        Intent i = new Intent(MainActivity3.this, ItemDescription.class);
+        i.putExtra("item_image", item.img);
+        i.putExtra("item_name", item.name);
+        i.putExtra("item_price", item.price);
+        startActivity(i);
+    }
+
     public JSONObject loadJSONFromAsset(Context context, String filename) {
         JSONObject json = null;
         try {

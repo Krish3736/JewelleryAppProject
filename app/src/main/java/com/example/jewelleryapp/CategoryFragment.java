@@ -41,7 +41,7 @@ public class CategoryFragment extends Fragment {
         arrCategoryItem.add(new HomeItemModel(R.drawable.category_background_image5,"Precious Pendant"));
         arrCategoryItem.add(new HomeItemModel(R.drawable.category_background_image2,"Charming Chains"));
         arrCategoryItem.add(new HomeItemModel(R.drawable.category_background_image1,"Beautiful Bracelets"));
-        arrCategoryItem.add(new HomeItemModel(R.drawable.category_background_image3,"Blissful Bangles"));
+        arrCategoryItem.add(new HomeItemModel(R.drawable.category_background_image3,"Wonderful Watches"));
 
 
         fragmentCategoryBinding.recyclerCategoryId.setAdapter(new CategoryAdapter(requireContext(),arrCategoryItem));

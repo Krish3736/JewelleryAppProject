@@ -44,7 +44,7 @@
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     <TextView
-        android:id="@+id/id_item_description_text2"
+        android:id="@+id/id_item_description_text1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/theme_color_rose_gold"
@@ -55,7 +55,7 @@
         android:textSize="30sp"
         />
     <TextView
-        android:id="@+id/id_item_description_text1"
+        android:id="@+id/id_item_description_text2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/theme_color_rose_gold"
@@ -72,7 +72,7 @@
         android:layout_gravity="center"
         android:background="@drawable/round_btn"
         android:text="Add to Cart"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="210dp"
         />
 
 </LinearLayout>

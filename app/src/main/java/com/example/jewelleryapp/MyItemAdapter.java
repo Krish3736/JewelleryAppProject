@@ -1,23 +1,28 @@
 package com.example.jewelleryapp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
 
+import androidx.recyclerview.widget.RecyclerView;
+import com.example.jewelleryapp.MyItemAdapter.OnItemClickListener;
 import java.util.ArrayList;
 
 public class MyItemAdapter extends RecyclerView.Adapter<MyItemAdapter.ViewHolder> {
     Context context;
     ArrayList<HomeItemModel> arrHomeItem;
-    MyItemAdapter(Context context, ArrayList<HomeItemModel> arrayList){
+    OnItemClickListener listener;
+    MyItemAdapter(Context context, ArrayList<HomeItemModel> arrayList,OnItemClickListener listener){
         this.context=context;
         this.arrHomeItem=arrayList;
+        this.listener=listener;
     }
 
     @NonNull
@@ -30,11 +35,17 @@ public class MyItemAdapter extends RecyclerView.Adapter<MyItemAdapter.ViewHolder
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+        final HomeItemModel item = arrHomeItem.get(position);
         holder.item_img.setImageResource(arrHomeItem.get(position).img);
         holder.item_name.setText(arrHomeItem.get(position).name);
         holder.item_price.setText(arrHomeItem.get(position).price);
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                listener.onItemClick(item);
+            }
+        });
     }
-
     @Override
     public int getItemCount() {
         return arrHomeItem.size();
@@ -49,5 +60,9 @@ public class MyItemAdapter extends RecyclerView.Adapter<MyItemAdapter.ViewHolder
             item_name = itemView.findViewById(R.id.item_name_id);
             item_price = itemView.findViewById(R.id.item_price_id);
         }
+    }
+
+    public interface OnItemClickListener {
+        void onItemClick(HomeItemModel item);
     }
 }
