@@ -1,9 +1,11 @@
 package com.example.jewelleryapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 
@@ -42,13 +44,35 @@ public class HomeFragment extends Fragment {
         imageList.add(new SlideModel (R.drawable.slider_img4, ScaleTypes.FIT));
         fragmentHomeBinding.imageSliderId.setImageList(imageList);
 
+        String[] names = {"Mirthful Elegance Diamond Bracelet", "Flowering Wine Finger Ring", "Plume Peacock Gold Pendant", "Beautiful Diamond Bracelet", "Elegance Rose Gold Watch", "Ainoah Graceful Necklace", "Elegant Kundan Earrings", "Omkar Glow Diamond Pendant"};
+        String[] prices = {"₹ 76,135", "₹ 58,144", "₹ 64,199", "₹ 69,999", "₹ 1,06,130", "₹ 1,34,986", "₹ 48,999", "₹ 89,549"};
+        int[] imageResourceIds = {R.drawable.bracelet_5, R.drawable.ring_10, R.drawable.pendant_3, R.drawable.bracelet_3, R.drawable.watch_5, R.drawable.necklace_2, R.drawable.earrings_1, R.drawable.pendant_5};
 
-        fragmentHomeBinding.homeCardId1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        // Array of CardView IDs
+        int[] cardViewIds = {R.id.home_card_id_1, R.id.home_card_id_2, R.id.home_card_id_3, R.id.home_card_id_4, R.id.home_card_id_5, R.id.home_card_id_6, R.id.home_card_id_7, R.id.home_card_id_8};
 
-            }
-        });
+        // Set OnClickListener for each CardView dynamically
+        for (int i = 0; i < cardViewIds.length; i++) {
+            CardView cardView = requireView().findViewById(cardViewIds[i]);
+            final String name = names[i];
+            final String price = prices[i];
+            final int imageResourceId = imageResourceIds[i];
+
+            cardView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    openItemDescriptionActivity(name, price, imageResourceId);
+                }
+            });
+        }
+    }
+
+    private void openItemDescriptionActivity(String name, String price, int imageResourceId) {
+        Intent intent = new Intent(getActivity(), ItemDescription.class);
+        intent.putExtra("item_image", imageResourceId);
+        intent.putExtra("item_name", name);
+        intent.putExtra("item_price", price);
+        startActivity(intent);
     }
 
     @Override
@@ -58,13 +82,6 @@ public class HomeFragment extends Fragment {
         fragmentHomeBinding = null;
     }
 
-
-    //    @Override
-//    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-//                             Bundle savedInstanceState) {
-//        // Inflate the layout for this fragment
-//        return inflater.inflate(R.layout.fragment_home, container, false);
-//    }
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

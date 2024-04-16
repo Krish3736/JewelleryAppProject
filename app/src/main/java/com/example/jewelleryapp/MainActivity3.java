@@ -25,7 +25,6 @@ public class MainActivity3 extends AppCompatActivity implements MyItemAdapter.On
 
     ActivityMain3Binding activityMain3Binding;
     MyItemAdapter myItemAdapter;
-    RecyclerView recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
